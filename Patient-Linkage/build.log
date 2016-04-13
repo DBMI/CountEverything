@@ -1,0 +1,234 @@
+In file included from client.h:5:0,
+                 from client.cpp:2:
+../util/thread.h: In constructor ‘CThread::CThread()’:
+../util/thread.h:115:42: warning: converting to non-pointer type ‘pthread_t {aka long unsigned int}’ from NULL [-Wconversion-null]
+  CThread(){m_bRunning = FALSE; m_pThread = NULL;}
+                                          ^
+In file included from client.h:5:0,
+                 from main.cpp:4:
+../util/thread.h: In constructor ‘CThread::CThread()’:
+../util/thread.h:115:42: warning: converting to non-pointer type ‘pthread_t {aka long unsigned int}’ from NULL [-Wconversion-null]
+  CThread(){m_bRunning = FALSE; m_pThread = NULL;}
+                                          ^
+In file included from server.h:7:0,
+                 from server.cpp:1:
+../util/thread.h: In constructor ‘CThread::CThread()’:
+../util/thread.h:115:42: warning: converting to non-pointer type ‘pthread_t {aka long unsigned int}’ from NULL [-Wconversion-null]
+  CThread(){m_bRunning = FALSE; m_pThread = NULL;}
+                                          ^
+In file included from ZZ.cpp:8:0:
+../util/thread.h: In constructor ‘CThread::CThread()’:
+../util/thread.h:115:42: warning: converting to non-pointer type ‘pthread_t {aka long unsigned int}’ from NULL [-Wconversion-null]
+  CThread(){m_bRunning = FALSE; m_pThread = NULL;}
+                                          ^
+In file included from lip.cpp:14:0:
+c_lip_impl.h: In function ‘void _ntl_zsetlength(long int**, long int)’:
+c_lip_impl.h:1815:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("negative size allocation in _ntl_zsetlength");
+                                                          ^
+c_lip_impl.h:1818:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("size too big in _ntl_zsetlength");
+                                              ^
+c_lip_impl.h:1834:66: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+             zhalt("internal error: can't grow this _ntl_verylong");
+                                                                  ^
+c_lip_impl.h:1852:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          zhalt("size too big in _ntl_zsetlength");
+                                                 ^
+c_lip_impl.h:1857:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          zhalt("reallocation failed in _ntl_zsetlength");
+                                                        ^
+c_lip_impl.h:1866:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          zhalt("size too big in _ntl_zsetlength");
+                                                 ^
+c_lip_impl.h:1871:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          zhalt("allocation failed in _ntl_zsetlength");
+                                                      ^
+c_lip_impl.h: In function ‘void _ntl_zfree(long int**)’:
+c_lip_impl.h:1889:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("Internal error: can't free this _ntl_verylong");
+                                                            ^
+c_lip_impl.h: In function ‘double _ntl_zlog(_ntl_verylong)’:
+c_lip_impl.h:2038:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("log argument <= 0");
+                                ^
+c_lip_impl.h: In function ‘void _ntl_zdoubtoz(double, long int**)’:
+c_lip_impl.h:2070:65: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("_ntl_zdoubtoz: attempt to convert non-finite value");
+                                                                 ^
+c_lip_impl.h: In function ‘void kar_mul(long int*, long int*, long int*, long int*, long int*, long int)’:
+c_lip_impl.h:2983:72: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          if (stk-kmem > max_kmem) zhalt("internal error: kmem overflow");
+                                                                        ^
+c_lip_impl.h:3036:72: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          if (stk-kmem > max_kmem) zhalt("internal error: kmem overflow");
+                                                                        ^
+c_lip_impl.h: In function ‘void kar_sq(long int*, long int*, long int*, long int*, long int)’:
+c_lip_impl.h:3117:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       if (stk-kmem > max_kmem) zhalt("internal error: kmem overflow");
+                                                                     ^
+c_lip_impl.h: In function ‘long int _ntl_zsdiv(_ntl_verylong, long int, long int**)’:
+c_lip_impl.h:3651:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("division by zero in _ntl_zsdiv");
+                                             ^
+c_lip_impl.h: In function ‘long int _ntl_zsmod(_ntl_verylong, long int)’:
+c_lip_impl.h:3744:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("division by zero in _ntl_zsdiv");
+                                             ^
+c_lip_impl.h: In function ‘void _ntl_zdiv(_ntl_verylong, _ntl_verylong, long int**, long int**)’:
+c_lip_impl.h:4103:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("division by zero in _ntl_zdiv");
+                                            ^
+c_lip_impl.h: In function ‘void _ntl_zmod(_ntl_verylong, _ntl_verylong, long int**)’:
+c_lip_impl.h:4269:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("division by zero in _ntl_zdiv");
+                                            ^
+c_lip_impl.h: In function ‘void _ntl_zinvmod(_ntl_verylong, _ntl_verylong, long int**)’:
+c_lip_impl.h:4616:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("undefined inverse in _ntl_zinvmod");
+                                            ^
+c_lip_impl.h: In function ‘long int _ntl_zinv(_ntl_verylong, _ntl_verylong, long int**)’:
+c_lip_impl.h:4853:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("InvMod: second input <= 1");
+                                    ^
+c_lip_impl.h:4858:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("InvMod: first input negative");
+                                       ^
+c_lip_impl.h:4862:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("InvMod: first input too big");
+                                      ^
+c_lip_impl.h: In function ‘void _ntl_zexteucl(_ntl_verylong, long int**, _ntl_verylong, long int**, long int**)’:
+c_lip_impl.h:5034:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("non-zero remainder in _ntl_zexteucl   BUG");
+                                                    ^
+c_lip_impl.h: In function ‘long int _ntl_zxxratrecon(_ntl_verylong, _ntl_verylong, _ntl_verylong, _ntl_verylong, long int**, long int**)’:
+c_lip_impl.h:5115:59: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("rational reconstruction: bad numerator bound");
+                                                           ^
+c_lip_impl.h:5123:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("rational reconstruction: bad denominator bound");
+                                                             ^
+c_lip_impl.h:5128:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("rational reconstruction: bad modulus");
+                                                   ^
+c_lip_impl.h:5131:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("rational reconstruction: bad residue");
+                                                   ^
+c_lip_impl.h: In function ‘void _ntl_zpowermod(_ntl_verylong, _ntl_verylong, _ntl_verylong, long int**)’:
+c_lip_impl.h:5509:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("PowerMod: bad args");
+                                 ^
+c_lip_impl.h:5591:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    if (!v) zhalt("out of memory");
+                                 ^
+c_lip_impl.h: In function ‘void _ntl_zexp(_ntl_verylong, long int, long int**)’:
+c_lip_impl.h:5684:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("negative exponent in _ntl_zexp");
+                                         ^
+c_lip_impl.h:5694:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("overflow in _ntl_zexp");
+                                ^
+c_lip_impl.h: In function ‘void _ntl_zexps(long int, long int, long int**)’:
+c_lip_impl.h:5731:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("negative exponent in _ntl_zexps");
+                                          ^
+c_lip_impl.h:5747:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("overflow in _ntl_zexps");
+                                 ^
+c_lip_impl.h: In function ‘void _ntl_zrshift(_ntl_verylong, long int, long int**)’:
+c_lip_impl.h:5999:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   if (k < -NTL_MAX_LONG) zhalt("overflow in _ntl_zrshift");
+                                                          ^
+c_lip_impl.h: In function ‘long int _ntl_zsqrts(long int)’:
+c_lip_impl.h:6110:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("_ntl_zsqrts: negative argument");
+                                         ^
+c_lip_impl.h: In function ‘void _ntl_zsqrt(_ntl_verylong, long int**)’:
+c_lip_impl.h:6166:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   zhalt("negative argument in _ntl_zsqrt");
+                                          ^
+c_lip_impl.h: In function ‘long int _ntl_zsetbit(long int**, long int)’:
+c_lip_impl.h:6820:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  if (b<0) zhalt("_ntl_zsetbit: negative index");
+                                               ^
+c_lip_impl.h: In function ‘long int _ntl_zswitchbit(long int**, long int)’:
+c_lip_impl.h:6860:59: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+         if (p < 0) zhalt("_ntl_zswitchbit: negative index");
+                                                           ^
+c_lip_impl.h: In function ‘void _ntl_zfrombytes(long int**, const unsigned char*, long int)’:
+c_lip_impl.h:6981:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("ZZFromBytes: excessive length");
+                                            ^
+c_lip_impl.h: In function ‘long int _ntl_zblock_construct_alloc(long int**, long int, long int)’:
+c_lip_impl.h:7052:50: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("block construct: n must be positive");
+                                                  ^
+c_lip_impl.h:7057:50: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("block construct: d must be positive");
+                                                  ^
+c_lip_impl.h:7061:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("block construct: d too large");
+                                           ^
+c_lip_impl.h:7081:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    if (!p) zhalt("out of memory in block construct");
+                                                    ^
+c_lip_impl.h: In function ‘void sp_ext_eucl(long int*, long int*, long int*, long int, long int)’:
+c_lip_impl.h:7168:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       if (a < -NTL_MAX_LONG) zhalt("integer overflow");
+                                                      ^
+c_lip_impl.h:7174:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       if (b < -NTL_MAX_LONG) zhalt("integer overflow");
+                                                      ^
+c_lip_impl.h: In function ‘long int sp_inv_mod(long int, long int)’:
+c_lip_impl.h:7214:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    if (d != 1) zhalt("inverse undefined");
+                                         ^
+c_lip_impl.h: In function ‘void _ntl_crt_struct_init(void**, long int, _ntl_verylong, const long int*)’:
+c_lip_impl.h:7284:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    if (!c) zhalt("out of memory");
+                                 ^
+c_lip_impl.h:7432:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       if (!C->v) zhalt("out of memory");
+                                       ^
+c_lip_impl.h: In function ‘void _ntl_crt_struct_insert(void*, long int, _ntl_verylong)’:
+c_lip_impl.h:7462:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("_ntl_crt_struct_insert: inconsistent strategy");
+                                                            ^
+c_lip_impl.h: In function ‘void _ntl_crt_struct_free(void*)’:
+c_lip_impl.h:7555:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("_ntl_crt_struct_free: inconsistent strategy");
+                                                          ^
+c_lip_impl.h: In function ‘void _ntl_crt_struct_eval(void*, long int**, const long int*)’:
+c_lip_impl.h:7754:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("_crt_struct_eval: inconsistent strategy");
+                                                      ^
+c_lip_impl.h: In function ‘void _ntl_rem_struct_init(void**, long int, _ntl_verylong, const long int*)’:
+c_lip_impl.h:7833:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    if (!r) zhalt("out of memory");
+                                 ^
+c_lip_impl.h:8014:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       if (!q) zhalt("out of memory");
+                                    ^
+c_lip_impl.h: In function ‘void _ntl_rem_struct_free(void*)’:
+c_lip_impl.h:8107:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("_ntl_rem_struct_free: inconsistent strategy");
+                                                          ^
+c_lip_impl.h: In function ‘void _ntl_rem_struct_eval(void*, long int*, _ntl_verylong)’:
+c_lip_impl.h:8194:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       zhalt("_ntl_rem_struct_eval: inconsistent strategy");
+                                                          ^
+g++ -o 2pc.exe -g 2pc/*.o NTL/*.o util/*.o circuit/*.o -lpthread 
+In file included from party.h:10:0,
+                 from mpc.cpp:6:
+../util/thread.h: In constructor ‘CThread::CThread()’:
+../util/thread.h:115:42: warning: converting to non-pointer type ‘pthread_t {aka long unsigned int}’ from NULL [-Wconversion-null]
+  CThread(){m_bRunning = FALSE; m_pThread = NULL;}
+                                          ^
+In file included from party.h:10:0,
+                 from party.cpp:6:
+../util/thread.h: In constructor ‘CThread::CThread()’:
+../util/thread.h:115:42: warning: converting to non-pointer type ‘pthread_t {aka long unsigned int}’ from NULL [-Wconversion-null]
+  CThread(){m_bRunning = FALSE; m_pThread = NULL;}
+                                          ^
+g++ -o mpc.exe -g mpc/*.o NTL/*.o util/*.o circuit/*.o -lpthread 
+g++ -o circtool.exe -g NTL/*.o util/*.o circtool/*.o circuit/*.o -lpthread 
